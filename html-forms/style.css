@@ -1,0 +1,26 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+head {
+  font-family:'Courier New', Courier, monospace
+}
+
+form, body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: 200;
+  color:blue;
+}
+
+h2 {
+  color: violet;
+  font-size: large;
+}
+:placeholder-shown {
+  font-size: small;
+}
