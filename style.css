@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+  background-color:cornflowerblue;
+}
+
+
+
+input {
+  margin: 5px;
+}
+
+head {
+  font-family:'Courier New', Courier, monospace
+}
+
+form, body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: 200;
+  color:blue;
+}
+
+h2 {
+  color: violet;
+  font-size: large;
+}
+:placeholder-shown {
+  font-size: small;
+}
+
+  center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+form {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding:10px;
+}
+
+button {
+  display: flex;
+  text-align: center;
+  margin: auto;
+}
+
+div:not(:first-child):not(:last-child) {
+  margin-left: 20px;
+  margin-right: 20px;
+}
