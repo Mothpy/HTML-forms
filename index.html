@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  
+  <form>
+    <fieldset>
+      <legend>Email Me!</legend>
+    <div>
+      <label for="name">Full Name:</label>
+      <input 
+        id="name" 
+        type="text" 
+        name="name" 
+        placeholder="Enter your cat's full name"
+        />
+    </div>  
+    <div>
+      <label for="email">Email:</label>
+      <input
+        id="email"
+        type="text"
+        name="email"
+        autofocus="on"
+        placeholder="whats ur @?"
+      />
+    </div>
+    <div>
+          (๑ↀᆺↀ๑)✧
+        <label for="form-message">Your message:</label>
+        <textarea 
+          id="form-message" 
+          name="message"
+          autofocus="on"
+          required
+          maxlength="200"
+          placeholder="How are you doing today? Let me know if I can assist you further"
+        ></textarea>
+    </div>
+
+  </fieldset>
+  </form>
+
+    <form>
+    <div>
+      <h2>Favorite Color (^◕ᴥ◕^)ฅ^•ﻌ•^ฅ :</h2>
+      <div>
+        <input id="red" name="color" type="radio" value="red" />
+        <label for="red">Red</label>
+      </div>
+      <div>
+        <input id="blue" name="color" type="radio" value="blue" />
+        <label for="blue">Blue</label>
+      </div>
+      <div>
+        <input id="white" name="color" type="radio" value="white" />
+        <label for="white">White</label>
+      </div>
+    </div>
+  </form>
+  <form>
+    ... $
+    <div>
+      <h2>Choose your monster's features (=^-ω-^=)((╬◣﹏◢)):</h2>
+      <div>
+        <input name="scales" type="checkbox" id="scales" />
+        <label for="scales">Scales</label>
+      </div>
+      <div>
+        <input name="horns" type="checkbox" id="horns" />
+        <label for="horns">Horns</label>
+      </div>
+      <div>
+        <input name="wings" type="checkbox" id="wings" />
+        <label for="wings">Wings</label>
+      </div>
+      <div>
+        <input name="fangs" type="checkbox" id="'fangs" />
+        <label for="Fangs">Fangs</label>
+      </div>
+    </div>
+  </form>
+    ... x
+    <form>
+      <div>
+        <h2>Font Time! /ᐠ - ˕ -マ Ⳋ</h2>
+        <label for="fonts">Choose a font:</label>
+        <select name="fonts" id="fonts" size="1">
+          <option value="arial">Arial</option>
+          <option value="times">Times New Roman</option>
+          <option value="comicsans">Courier New</option>
+          <option value="papyrus">Papyrus</option>
+        </select>
+      </div>
+    </form>
+    ... &
+<form>
+  <div>
+    <h2> Ring Ring ... hello ? /ᐠ. ｡.ᐟ\ᵐᵉᵒʷˎˊ˗ </h2>
+    <label for="phone">Phone #:</label>
+    <input
+      id="phone"
+      type="text"
+      name="phone"
+      pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+      placeholder="xxx-xxx-xxxx"
+    />
+  </div>
+</form>
+<h2> 𓆝 𓆟 𓆞 𓆝 𓆟 </h2>
+  <form>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+  </form>
+  
+  <body>
+    <main></main>
+  </body>
+</html>
